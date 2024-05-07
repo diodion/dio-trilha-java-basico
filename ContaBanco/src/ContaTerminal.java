@@ -7,7 +7,7 @@ public class ContaTerminal {
 
         try {
             System.out.println("Qual é o seu nome?");
-            String nomeCliente = scanner.nextLine(); // Using nextLine() to handle spaces in names
+            String nomeCliente = scanner.nextLine();
 
             System.out.println("Digite o número da agência: ");
             String agencia = scanner.nextLine();
